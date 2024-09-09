@@ -30,6 +30,10 @@ async function requisicao() {
 
     chatBox.innerHTML += `<section id="balaoDeTexto" class="bg-secondary-subtle ms-auto p-3 me-2 w-50 square flex-grow-1 text-wrap">${userInput}</section>
         <section class="text-end p-2"><strong>Você:</strong></section><br>`;
+    if (imagem){
+        chatBox.innerHTML += `<section id="balaoDeTexto" class="bg-secondary-subtle ms-auto p-3 me-2 w-50 square flex-grow-1 text-wrap">"Imagem enviada!"</section>
+        <section class="text-end p-2"><strong>Você:</strong></section><br>`;
+    }
 
     historico.push({
         role: 'user',
