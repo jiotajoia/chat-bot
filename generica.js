@@ -44,7 +44,7 @@ async function requisicao(){
 
 
         try {
-            const response = await fetch('http://localhost:3000/ask-gemini', {
+            const response = await fetch('https://chat-bot-5ro3.onrender.com/ask-gemini', {
                 method: 'POST',
                 body: formData
             });
