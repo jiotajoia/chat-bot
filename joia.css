@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items:normal;*/
+    min-height: 100vh;
+    height:flex;
+    margin: 0;
+    background-color: white;
+}
+
+#chat-container {
+    width: 100vh;
+    border: 1px solid orange;
+    background:white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#chat-box {
+    height: 700px;
+    width: 100vh;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    /*padding: 10px;
+    margin-bottom: 10px;*/
+}
+
+
+#user-input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    border: 1px solid #bf0404;
+    border-radius: 5px;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.usuario{
+    width: 100px; 
+    height: 100px;
+}
+
+.shoyo{
+    width: 70px; 
+    height: 70px;
+}
+
+.barraLateral{
+    width: 20%;
+    background-color: #FF8500;
+}
+
+.help-button, .logout-button, .send-button1, .bar-button{
+    width: 40px;
+    height: 40px;
+    border: transparent;
+    background-color: transparent;
+}
+
+.usuario-img, .shoyo, .bar-img{
+    color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.submit-button{
+    height: 60px;
+    width: 60px;
+}
+
+.equipe{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    flex: 1;
+}
+
+.rodape{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-custom {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ir{
+    color:#ddd;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF8500;
+    border-color: transparent;
+}
+
+.bg-secondary-subtle {
+    max-width: 100%; 
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.integrantes{
+    text-align: center;
+    background-color:#FF8500;
+    margin-top: 10px;
+}
