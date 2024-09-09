@@ -63,10 +63,7 @@ body {
 }
 
 .barraLateral{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+    width: 20%;
     background-color: #FF8500;
 }
 
@@ -81,11 +78,6 @@ body {
     color: transparent;
     border-color: transparent;
     background-color: transparent;
-}
-
-.header{
-    display: flex;
-    align-items: center;
 }
 
 .submit-button{
