@@ -42,7 +42,7 @@ async function requisicao() {
     formData.append('historico', JSON.stringify(historico));
 
     try {
-        const response = await axios.post('http://localhost:3000/ask-gemini', formData, {
+        const response = await axios.post('https://chat-bot-5ro3.onrender.com/ask-gemini', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data'
             }
